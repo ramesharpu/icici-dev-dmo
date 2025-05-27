@@ -17,4 +17,10 @@ public class DevDemoApplication {
 	public String hello() {
 		return String.format("<h1>Hello There!!! Welcome to my webapplication</h1>");
 	}
+	
+	@GetMapping("/inbox")
+	public String inbox() {
+		return String.format("<h1>This is inbox code</h1>");
+	}
+	
 }
